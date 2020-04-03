@@ -69,6 +69,7 @@ echo "===Input:4294967295===="
 echo "Answer:3 5 17 257 65537$"
 echo "Result:\c"
 ./factorization 4294967295|cat -e
+
 :<<'END'
 start_time=`date +%s.$N`
 start_time_string=`date`
