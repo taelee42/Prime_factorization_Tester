@@ -38,6 +38,28 @@ file structure:
 
   
 
+# Benchmark 파일 추가
+
+- #### benchmark_100.sh
+
+  Max value 이전 100개의 값으로 테스트 뒤 경과 시간을 출력합니다.
+
+  `./benchmark_100.sh`
+
+- #### benchmark_1000.sh
+
+  Max value 이전 1000개의 값으로 테스트 뒤 경과 시간을 출력합니다.
+
+  `./benchmark_1000.sh`
+
+- #### benchmark.sh
+
+  max값을 직접 지정합니다.
+
+  `./benchmark.sh` 입력 후 max 값 입력
+
+
+
 # 주의
 
 Max Value Test에서 계산이 너무 오래걸려 결과가 안나오면

@@ -1,11 +1,8 @@
-echo -e "테스트케이스의 최댓값을 입력하세요 (3 ~ 4294967295)"
-read size
-echo "===2부터 $size 까지 테스트를 진행합니다==="
 cd ..
 start_time=`date +%s.$N`
 start_time_string=`date`
 
-	for (( i = 2; i <= $size; i++ )) do
+	for (( i = 4294967196; i <= 4294967295; i++ )) do
 		./factorization $i >> temp_benchmark
 	done
 end_time=`date +%s.$N`
