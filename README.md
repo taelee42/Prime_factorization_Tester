@@ -1,4 +1,4 @@
-![Screen Shot 2020-04-03 at 3.33.12 PM](/Users/taelee/42 seoul piscine/prime_facto/tester/Screen Shot 2020-04-03 at 3.33.12 PM.png)
+![https://github.com/taelee42/Prime_factorization_Tester/blob/master/Screen%20Shot%202020-04-03%20at%203.33.12%20PM.png?raw=true)
 
 # 실행 방법
 
@@ -11,7 +11,7 @@
 file structure:
 
        |---실행 프로그램 폴더
-
+    
                 |---클론위치
 
 
