@@ -1,4 +1,4 @@
-![https://github.com/taelee42/Prime_factorization_Tester/blob/master/Screen%20Shot%202020-04-03%20at%203.33.12%20PM.png?raw=true)
+![](https://github.com/taelee42/Prime_factorization_Tester/blob/master/Screen%20Shot%202020-04-03%20at%203.33.12%20PM.png?raw=true)
 
 # 실행 방법
 
