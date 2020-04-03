@@ -62,9 +62,9 @@ file structure:
 
 # 주의
 
-Max Value Test에서 계산이 너무 오래걸려 결과가 안나오면
+Max Value Test에서 계산이 너무 오래걸려 결과가 나오지 않으면
 
-Ctrl + C로 빠져나오시면 됩니다.
+ctrl + c로 빠져나오시면 됩니다.
 
 
 

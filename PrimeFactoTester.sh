@@ -15,10 +15,6 @@ else
 fi
 echo
 
-echo "====Started with 0 Test===="
-echo "./factorization 000000000036===>\c"
-./factorization 000000000036|cat -e
-echo 
 echo "========================"
 echo "=====Error MSG Test====="
 echo "========================"
@@ -64,6 +60,10 @@ a=-36
 echo "./factorization $a ===>\c" 
 ./factorization $a|cat -e
 echo
+echo "====Started with 0 value===="
+echo "./factorization 000000000036===>\c"
+./factorization 000000000036|cat -e
+echo 
 echo "=====Max value Test===="
 echo "===Input:4294967295===="
 echo "Answer:3 5 17 257 65537$"
