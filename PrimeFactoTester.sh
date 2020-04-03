@@ -1,9 +1,8 @@
 cd ..
-ls
 
-echo "==========Test Start=========="
-echo "========value : 2 to 20======="
 if [ -e factorization ] ; then
+	echo "==========Test Start=========="
+	echo "========value : 2 to 20======="
 	for i in $(seq 2 20); do
 		echo "$i : \c" 
 		./factorization $i|cat -e
