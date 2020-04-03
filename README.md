@@ -1,3 +1,5 @@
+![Screen Shot 2020-04-03 at 3.33.12 PM](/Users/taelee/42 seoul piscine/prime_facto/tester/Screen Shot 2020-04-03 at 3.33.12 PM.png)
+
 # 실행 방법
 
 테스트 할 폴더에 진입 후
