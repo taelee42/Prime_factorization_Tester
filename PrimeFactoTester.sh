@@ -13,16 +13,10 @@ else
 	echo "enter 'make' first"
 
 fi
-echo "=====Max value Test===="
-echo "===Input:4294967295===="
-echo "Answer:3 5 17 257 65537$"
-echo "Result:\c"
-./factorization 4294967295|cat -e
-echo 
+echo
+
 echo "====Started with 0 Test===="
-echo "===Input:000000000036===="
-echo "Answer:2 3$"
-echo "Result:\c"
+echo "./factorization 000000000036===>\c"
 ./factorization 000000000036|cat -e
 echo 
 echo "========================"
@@ -52,7 +46,7 @@ echo "./factorization $a $b===>\c"
 ./factorization $a $b|cat -e
 echo 
 
-echo "===Non numeric input==="e
+echo "===Non numeric input==="
 a=slkdj
 echo "./factorization $a ===>\c" 
 ./factorization $a|cat -e
@@ -69,7 +63,12 @@ echo "===Minus input test==="e
 a=-36
 echo "./factorization $a ===>\c" 
 ./factorization $a|cat -e
-
+echo
+echo "=====Max value Test===="
+echo "===Input:4294967295===="
+echo "Answer:3 5 17 257 65537$"
+echo "Result:\c"
+./factorization 4294967295|cat -e
 :<<'END'
 start_time=`date +%s.$N`
 start_time_string=`date`
