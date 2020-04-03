@@ -34,6 +34,10 @@ a=5000000000
 echo "./factorization $a ===>\c" 
 ./factorization $a|cat -e
 echo 
+a=100000000000000000000
+echo "./factorization $a ===>\c" 
+./factorization $a|cat -e
+echo 
 
 echo "===More than 2 arguments==="
 a=5 
